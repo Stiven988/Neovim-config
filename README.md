@@ -41,8 +41,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'jiangmiao/auto-pairs'
 
 " tmux
-"Plug 'benmills/vimux'
-"Plug 'christoomey/vim-tmux-navigator'
+Plug 'benmills/vimux'
+Plug 'christoomey/vim-tmux-navigator'
 
 " autocomplete
 "Plug 'sirver/ultisnips'
@@ -63,6 +63,7 @@ let g:gruvbox_contrast_dark = "hard"
 highlight Normal ctermbg=NONE
 set laststatus=2
 set noshowmode
+let NERDTreeQuitOnOpen=1
 
 " maps
 let mapleader = " "
